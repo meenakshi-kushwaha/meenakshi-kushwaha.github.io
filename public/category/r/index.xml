@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Meenakshi Kushwaha</title>
+    <link>/category/r/</link>
+      <atom:link href="/category/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>R</title>
+      <link>/category/r/</link>
+    </image>
+    
+    <item>
+      <title>Making a presentation in xaringan</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>
+
+
+&lt;p&gt;I do not know HTML or CSS. However following xihui’s book here was farely simple. I started new rmarkdown-&amp;gt;presentation-&amp;gt;xaringan and started editing the template one by one.&lt;/p&gt;
+&lt;p&gt;Here are some tools that were particularly helpful.&lt;/p&gt;
+&lt;div id=&#34;how-to-see-your-edits-in-realtime&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;How to see your edits in realtime&lt;/h3&gt;
+&lt;p&gt;One way to preview the slides is the RStudio addin “Infinite Moon Reader”. There are a few other methods in the orginial tutorial. I found this one handy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;how-to-quickly-convert-your-html-xaringan-presentation-to-pdf&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;How to quickly convert your html xaringan presentation to pdf?&lt;/h3&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;Install &lt;em&gt;pagedown&lt;/em&gt; package&lt;/li&gt;
+&lt;li&gt;Use the chrome_print() function&lt;/li&gt;
+&lt;li&gt;pass the html file path to chrome_print()&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This will generate a .pdf file in your current directory.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;pagedown::chrome_print(&amp;quot;your/directory/path/htmlpresentation.html&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;how-to-change-font&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;How to change font?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;This is some &amp;lt;sup&amp;gt;superscript&amp;lt;/sup&amp;gt; text
+This is some &amp;lt;u&amp;gt;underlined&amp;lt;/u&amp;gt; text&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;how-to-add-presenter-notes&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;How to add presenter notes&lt;/h3&gt;
+&lt;p&gt;Add your notes after ‘???’ after every slide. Toggle presenter mode by pressing p&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
